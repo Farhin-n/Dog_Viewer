@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Dog Viewer</title>
+	<link href="./style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+	<header>
+		<h1>Dog Viewer 🐶</h1>
+	</header>
+	<h3>Choose a dog breed from the dropdown and you will be blessed with an adorable photo of one</h3>
+	<select id="dogBreeds">
+		<option>Select breed...</option>
+	</select>
+	<div id="dogImageContainer">
+		<img id="dogImage" src="" alt="cute doggo" />
+		<span id="loader" class="show spin">🐶</span>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="./script.js"></script>
+</body>
+
+</html>
